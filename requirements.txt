@@ -1,0 +1,4 @@
+# Agent + eval side (Python). Controller side uses MATLAB (no Python deps).
+pydantic>=2.0
+matplotlib>=3.5
+anthropic>=0.40   # only needed for LLM mode; fallback mode runs without it
